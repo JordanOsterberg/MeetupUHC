@@ -1,0 +1,15 @@
+name: MeetupUHC
+main: tech.shadowsystems.meetupuhc.Meetup
+version: 1.0
+authors: [Shadow Technical Systems LLC]
+website: www.shadowsystems.tech
+commands:
+  startgame:
+    description: Start the game.
+    aliases: [sg, stg, forcestart, fs]
+  votestart:
+    description: Vote to start the game early.
+    aliases: [vs]
+  stats:
+    description: Lookup stats for a player;
+    aliases: [statistics, records]
